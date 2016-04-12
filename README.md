@@ -4,6 +4,7 @@ Whenever I create a custom Wordpress theme, I always start from this one. Just t
 Drop in the public folder from my [npm-builder](https://github.com/marcofacheris/npm-builder) and you are good to go.
 
 ## License
+
 MIT License
 
 Copyright (c) 2016 Marco Facheris
