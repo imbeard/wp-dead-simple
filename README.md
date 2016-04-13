@@ -1,7 +1,7 @@
 # wp-dead-simple
 
 Whenever I create a custom Wordpress theme, I always start from this one. Just the essential files and functions.
-Drop in the public folder from my [npm-builder](https://github.com/marcofacheris/npm-builder) and you are good to go.
+Drop in the public folder from my [npmit](https://github.com/marcofacheris/npmit) and you are good to go.
 
 ## License
 
