@@ -50,7 +50,7 @@ add_filter( 'wp_title', 'init_wp_title', 10, 2 );
 function init_scripts() {
 	
 	// css
-	wp_enqueue_style( 'wp-dead-simple-css', get_template_directory_uri() . '/public/css/app.css' );
+	wp_enqueue_style( 'wp-dead-simple', get_template_directory_uri() . '/public/css/app.css' );
 	
 	// js
 	wp_enqueue_script( 'wp-dead-simple-js', get_template_directory_uri() . '/public/js/app.js' );
