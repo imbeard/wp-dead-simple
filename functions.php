@@ -6,13 +6,23 @@
 if ( ! function_exists( 'init_setup' ) ) :
 
 	function init_setup() {
-				
-		add_theme_support( 'post-thumbnails' );
-		
-		load_theme_textdomain( 'wp-dead-simple' );
+
+		load_theme_textdomain( 'wp-dead-simple', get_template_directory() . '/languages' );
+
+		add_theme_support( 'title-tag' );
+		//add_theme_support( 'post-thumbnails' );
+		//add_theme_support( 'automatic-feed-links' );
 
 		register_nav_menus( array(
-			'primary'  => __( 'Header menu', 'wp-dead-simple' ),
+			'primary'  => __( 'Primary', 'wp-dead-simple' ),
+		) );
+
+		add_theme_support( 'html5', array(
+			'search-form',
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
 		) );
 		
 		add_image_size( 'big', 1920, 1080 );
